@@ -33,7 +33,7 @@
   };
   
   window.addEventListener("scroll", () => {
-    if (window.scrollY > 200) {
+    if (window.scrollY > 50) {
       isBackToTopRendered = true;
       alterStyles(isBackToTopRendered);
     } else {
