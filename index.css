@@ -611,3 +611,45 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+
+.certificates__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add space between certificate boxes */
+  }
+  
+  .certificate__box {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .certificate__box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .certificate__box p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #aaa;
+  }
+  
+  .certificate__box a {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #4c6ef5;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .certificate__box a:hover {
+    background-color: #3a56c6;
+  }
+  
