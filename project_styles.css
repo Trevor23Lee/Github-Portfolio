@@ -1,0 +1,25 @@
+.project-details {
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  .project-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .work-item {
+    margin-bottom: 30px;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .work-item a {
+    color: #4c8bf5;
+    text-decoration: none;
+  }
+  
