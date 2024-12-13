@@ -682,6 +682,7 @@ body.dark-theme {
   .project__description {
     font-size: 2rem;
     margin-bottom: 5rem;
+    margin-left: 1rem;
   }
   
   .project__subheading {
