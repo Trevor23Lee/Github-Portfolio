@@ -9,7 +9,7 @@
 </head>
 <body class="dark-theme"> <!-- Consistent dark theme class -->
 
-    <header>
+    <header id="top">
         <h1>Keystroke Log Analyzer with Word Extraction and Pattern Detection</h1>
         <nav>
           <a href="index.html">Home</a>
@@ -22,15 +22,8 @@
       <div class="project__details">
         <h1 class="project__title">Keystroke Log Analyzer with Word Extraction and Pattern Detection</h1>
         <p class="project__description">
-            In this project, I developed a keylogger, a tool often exploited by malicious actors to gather intelligence from victims. 
-            Keyloggers capture and log a victim's keystrokes, enabling the collection of sensitive information.
-
-            To enhance the functionality, I created an additional script to analyze the logged data and identify patterns. 
-            Since the raw log file records one keystroke per line, the script first reconstructs this data into readable text. 
-            Once reconstructed, the script detects patterns that could be of interest to an attacker, such as the most common words, URLs, email addresses, and potential passwords.
-            
-            This analysis allows an attacker to identify websites, along with associated emails and passwords, facilitating unauthorized access. 
-            The processed output clearly displays these findings, making it easier to interpret the extracted data.
+            In this project, I created a keylogger to capture keystrokes and a script to analyze the logged data. 
+            The script reconstructs the keystrokes into readable text and identifies patterns like common words, URLs, emails, and passwords, making it easier to extract useful information.
         </p>
 
         <h2 class="project__subheading">What I Learned</h2>
