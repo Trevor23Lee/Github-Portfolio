@@ -10,7 +10,7 @@
 <body class="dark-theme"> <!-- Consistent dark theme class -->
 
     <header>
-        <h1>Project 1</h1>
+        <h1>Keystroke Log Analyzer with Word Extraction and Pattern Detection</h1>
         <nav>
           <a href="index.html">Home</a>
         </nav>
@@ -20,16 +20,34 @@
     <div class="row project__container">
       <!-- Left Side: Project Description and What I Learned -->
       <div class="project__details">
-        <h1 class="project__title">Project 4</h1>
+        <h1 class="project__title">Keystroke Log Analyzer with Word Extraction and Pattern Detection</h1>
         <p class="project__description">
-          This is a brief description of Project 3, highlighting what the project is about and its key features.
+            In this project, I developed a keylogger, a tool often exploited by malicious actors to gather intelligence from victims. 
+            Keyloggers capture and log a victim's keystrokes, enabling the collection of sensitive information.
+
+            To enhance the functionality, I created an additional script to analyze the logged data and identify patterns. 
+            Since the raw log file records one keystroke per line, the script first reconstructs this data into readable text. 
+            Once reconstructed, the script detects patterns that could be of interest to an attacker, such as the most common words, URLs, email addresses, and potential passwords.
+            
+            This analysis allows an attacker to identify websites, along with associated emails and passwords, facilitating unauthorized access. 
+            The processed output clearly displays these findings, making it easier to interpret the extracted data.
         </p>
 
         <h2 class="project__subheading">What I Learned</h2>
         <ul class="project__learnings">
-          <li>Skill 1</li>
-          <li>Skill 2</li>
-          <li>Skill 3</li>
+          <p>
+            Through this project, I gained several key insights that will benefit my future career as a cybersecurity analyst. One critical takeaway was understanding the security
+             implications of how straightforward it is to create and implement a keylogger. Keyloggers are relatively easy to develop or acquire, and a threat actor merely needs to
+              deploy a payload for the victim to execute the script, which can often evade detection.
+
+            Additionally, this project deepened my proficiency in Python, particularly through the use of libraries like pynput for capturing keystrokes and re for regex-based pattern matching. 
+            As I progressed, I found myself continuously expanding the functionality of the script. Initially focused on detecting common words and URLs, I later incorporated features to recognize emails and potential passwords.
+
+            Looking ahead, there are several enhancements I'm considering, such as encrypting output files, conducting more detailed analysis of typing patterns, and expanding pattern recognition capabilities. 
+            These additions could further improve the project's scope and relevance to real-world cybersecurity challenges.
+
+
+          </p>
         </ul>
       </div>
 
@@ -44,8 +62,7 @@
     <div class="row project__in-depth">
       <h2 class="project__subheading">In-Depth Description</h2>
       <p>
-        Which this analysis will combine all the key strokes into sentences for human readable. Then this allows multiple functions to then find patterns
-                which include most common words, emails, URLs, potential passwords(based on strong passwords, e.g. Password25!PA$$)
+        
       </p>
       <a href="https://github.com/Trevor23Lee/Keylogger-Software" target="_blank" class="btn btn--blue">View Code on GitHub</a>
     </div>
